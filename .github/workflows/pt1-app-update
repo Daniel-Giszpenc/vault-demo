@@ -1,0 +1,45 @@
+name: Pt-1 Vault-Demo App Update
+
+on:
+  push:
+    paths:
+      - "pt1-app/app/**"
+  pull_request:
+    paths:
+      - "pt1-app/app/**"
+
+jobs:
+  app-update:
+    runs-on: ubuntu-latest
+
+    permissions:
+      id-token: write
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Connect to Tailscale
+        uses: tailscale/github-action@v4
+        with:
+          oauth-client-id: ${{ secrets.TS_OIDC_CLIENT_ID }}
+          audience: ${{ secrets.TS_OIDC_AUDIENCE }}
+          tags: tag:vault-demo-ci
+
+      - name: Import AWS credentials from Vault
+        uses: hashicorp/vault-action@v2
+        with:
+          url: https://100.80.0.1:8200
+          caCertificate: ${{ secrets.VAULT_CA_CERT }}
+          method: jwt
+          role: github-ci
+          secrets: |
+            aws/creds/terraform-ci access_key | AWS_ACCESS_KEY_ID ;
+            aws/creds/terraform-ci secret_key | AWS_SECRET_ACCESS_KEY ;
+            aws/creds/terraform-ci security_token | AWS_SESSION_TOKEN
+
+      - name: Terraform Init
+        run: terraform init
+
+      - name: Terraform Plan
+        run: terraform plan
