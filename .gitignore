@@ -6,3 +6,11 @@
 **/node_modules
 **/.vitepress/cache
 **/.vitepress/dist
+
+# secret-scratchpad/
+
+
+**/terraform.tfstate
+**/terraform.tfstate.backup
+
+**/vault.crt
