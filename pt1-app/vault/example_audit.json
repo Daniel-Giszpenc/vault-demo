@@ -1,0 +1,721 @@
+{
+    "auth": {
+        "accessor": "hmac-sha256:11c068afa23b552307be059c34ee8bc26f71ab50d59447d27f07d6c639f3ed9b",
+        "client_token": "hmac-sha256:95a0fc677b18f6468100de1da1c3a2051850a3c458e1c15146b2b0c2b368ace6",
+        "display_name": "root",
+        "policies": [
+            "root"
+        ],
+        "policy_results": {
+            "allowed": true,
+            "granting_policies": [
+                {
+                    "type": ""
+                },
+                {
+                    "name": "root",
+                    "namespace_id": "root",
+                    "type": "acl"
+                }
+            ]
+        },
+        "token_issue_time": "2026-07-16T04:02:15Z",
+        "token_policies": [
+            "root"
+        ],
+        "token_type": "service"
+    },
+    "auth": {
+        "accessor": "hmac-sha256:11c068afa23b552307be059c34ee8bc26f71ab50d59447d27f07d6c639f3ed9b",
+        "client_token": "hmac-sha256:95a0fc677b18f6468100de1da1c3a2051850a3c458e1c15146b2b0c2b368ace6",
+        "display_name": "root",
+        "policies": [
+            "root"
+        ],
+        "policy_results": {
+            "allowed": true,
+            "granting_policies": [
+                {
+                    "type": ""
+                },
+                {
+                    "name": "root",
+                    "namespace_id": "root",
+                    "type": "acl"
+                }
+            ]
+        },
+        "token_issue_time": "2026-07-16T04:02:15Z",
+        "token_policies": [
+            "root"
+        ],
+        "token_type": "service"
+    },
+    "auth": {
+        "accessor": "hmac-sha256:11c068afa23b552307be059c34ee8bc26f71ab50d59447d27f07d6c639f3ed9b",
+        "client_token": "hmac-sha256:95a0fc677b18f6468100de1da1c3a2051850a3c458e1c15146b2b0c2b368ace6",
+        "display_name": "root",
+        "policies": [
+            "root"
+        ],
+        "policy_results": {
+            "allowed": true,
+            "granting_policies": [
+                {
+                    "type": ""
+                },
+                {
+                    "name": "root",
+                    "namespace_id": "root",
+                    "type": "acl"
+                }
+            ]
+        },
+        "token_issue_time": "2026-07-16T04:02:15Z",
+        "token_policies": [
+            "root"
+        ],
+        "token_type": "service"
+    },
+    "auth": {
+        "accessor": "hmac-sha256:2ae5d86ad1d4bc7f2bb7130640930688601fc961a2dc3dbe6eabee072eccd47b",
+        "client_token": "hmac-sha256:08b958d6c0cf684944bcf7c003f0d754663ba0e092aed7139e3a1bc069b73f8c",
+        "display_name": "token-terraform",
+        "policies": [
+            "root"
+        ],
+        "policy_results": {
+            "allowed": true,
+            "granting_policies": [
+                {
+                    "type": ""
+                },
+                {
+                    "name": "root",
+                    "namespace_id": "root",
+                    "type": "acl"
+                }
+            ]
+        },
+        "token_issue_time": "2026-07-16T08:00:11Z",
+        "token_policies": [
+            "root"
+        ],
+        "token_ttl": 1200,
+        "token_type": "service"
+    },
+    "auth": {
+        "accessor": "hmac-sha256:2ae5d86ad1d4bc7f2bb7130640930688601fc961a2dc3dbe6eabee072eccd47b",
+        "client_token": "hmac-sha256:08b958d6c0cf684944bcf7c003f0d754663ba0e092aed7139e3a1bc069b73f8c",
+        "display_name": "token-terraform",
+        "policies": [
+            "root"
+        ],
+        "policy_results": {
+            "allowed": true,
+            "granting_policies": [
+                {
+                    "type": ""
+                },
+                {
+                    "name": "root",
+                    "namespace_id": "root",
+                    "type": "acl"
+                }
+            ]
+        },
+        "token_issue_time": "2026-07-16T08:00:11Z",
+        "token_policies": [
+            "root"
+        ],
+        "token_ttl": 1200,
+        "token_type": "service"
+    },
+    "auth": {
+        "accessor": "hmac-sha256:2ae5d86ad1d4bc7f2bb7130640930688601fc961a2dc3dbe6eabee072eccd47b",
+        "client_token": "hmac-sha256:08b958d6c0cf684944bcf7c003f0d754663ba0e092aed7139e3a1bc069b73f8c",
+        "display_name": "token-terraform",
+        "policies": [
+            "root"
+        ],
+        "policy_results": {
+            "allowed": true,
+            "granting_policies": [
+                {
+                    "type": ""
+                },
+                {
+                    "name": "root",
+                    "namespace_id": "root",
+                    "type": "acl"
+                }
+            ]
+        },
+        "token_issue_time": "2026-07-16T08:00:11Z",
+        "token_policies": [
+            "root"
+        ],
+        "token_ttl": 1200,
+        "token_type": "service"
+    },
+    "auth": {
+        "accessor": "hmac-sha256:2ae5d86ad1d4bc7f2bb7130640930688601fc961a2dc3dbe6eabee072eccd47b",
+        "client_token": "hmac-sha256:08b958d6c0cf684944bcf7c003f0d754663ba0e092aed7139e3a1bc069b73f8c",
+        "display_name": "token-terraform",
+        "policies": [
+            "root"
+        ],
+        "policy_results": {
+            "allowed": true,
+            "granting_policies": [
+                {
+                    "type": ""
+                },
+                {
+                    "name": "root",
+                    "namespace_id": "root",
+                    "type": "acl"
+                }
+            ]
+        },
+        "token_issue_time": "2026-07-16T08:00:11Z",
+        "token_policies": [
+            "root"
+        ],
+        "token_ttl": 1200,
+        "token_type": "service"
+    },
+    "auth": {
+        "accessor": "hmac-sha256:11c068afa23b552307be059c34ee8bc26f71ab50d59447d27f07d6c639f3ed9b",
+        "client_token": "hmac-sha256:95a0fc677b18f6468100de1da1c3a2051850a3c458e1c15146b2b0c2b368ace6",
+        "display_name": "root",
+        "policies": [
+            "root"
+        ],
+        "policy_results": {
+            "allowed": true,
+            "granting_policies": [
+                {
+                    "type": ""
+                },
+                {
+                    "name": "root",
+                    "namespace_id": "root",
+                    "type": "acl"
+                }
+            ]
+        },
+        "token_issue_time": "2026-07-16T04:02:15Z",
+        "token_policies": [
+            "root"
+        ],
+        "token_type": "service"
+    },
+    "auth": {
+        "accessor": "hmac-sha256:11c068afa23b552307be059c34ee8bc26f71ab50d59447d27f07d6c639f3ed9b",
+        "client_token": "hmac-sha256:95a0fc677b18f6468100de1da1c3a2051850a3c458e1c15146b2b0c2b368ace6",
+        "display_name": "root",
+        "policies": [
+            "root"
+        ],
+        "policy_results": {
+            "allowed": true,
+            "granting_policies": [
+                {
+                    "type": ""
+                },
+                {
+                    "name": "root",
+                    "namespace_id": "root",
+                    "type": "acl"
+                }
+            ]
+        },
+        "token_issue_time": "2026-07-16T04:02:15Z",
+        "token_policies": [
+            "root"
+        ],
+        "token_type": "service"
+    },
+    "auth": {
+        "accessor": "hmac-sha256:11c068afa23b552307be059c34ee8bc26f71ab50d59447d27f07d6c639f3ed9b",
+        "client_token": "hmac-sha256:95a0fc677b18f6468100de1da1c3a2051850a3c458e1c15146b2b0c2b368ace6",
+        "display_name": "root",
+        "policies": [
+            "root"
+        ],
+        "policy_results": {
+            "allowed": true,
+            "granting_policies": [
+                {
+                    "type": ""
+                },
+                {
+                    "name": "root",
+                    "namespace_id": "root",
+                    "type": "acl"
+                }
+            ]
+        },
+        "token_issue_time": "2026-07-16T04:02:15Z",
+        "token_policies": [
+            "root"
+        ],
+        "token_type": "service"
+    },
+    "auth": {
+        "accessor": "hmac-sha256:11c068afa23b552307be059c34ee8bc26f71ab50d59447d27f07d6c639f3ed9b",
+        "client_token": "hmac-sha256:95a0fc677b18f6468100de1da1c3a2051850a3c458e1c15146b2b0c2b368ace6",
+        "display_name": "root",
+        "policies": [
+            "root"
+        ],
+        "policy_results": {
+            "allowed": true,
+            "granting_policies": [
+                {
+                    "type": ""
+                },
+                {
+                    "name": "root",
+                    "namespace_id": "root",
+                    "type": "acl"
+                }
+            ]
+        },
+        "token_issue_time": "2026-07-16T04:02:15Z",
+        "token_policies": [
+            "root"
+        ],
+        "token_type": "service"
+    },
+    "request": {
+        "client_id": "0DHqvq2D77kL2/JTPSZkTMJbkFVmUu0TzMi0jiXcFy8=",
+        "client_token": "hmac-sha256:08b958d6c0cf684944bcf7c003f0d754663ba0e092aed7139e3a1bc069b73f8c",
+        "client_token_accessor": "hmac-sha256:2ae5d86ad1d4bc7f2bb7130640930688601fc961a2dc3dbe6eabee072eccd47b",
+        "headers": {
+            "user-agent": [
+                "Go-http-client/2.0"
+            ]
+        },
+        "id": "fa3a4bc5-bea5-463f-05e3-cfcc61636f1e",
+        "mount_accessor": "aws_3f8fdb2a",
+        "mount_class": "secret",
+        "mount_point": "aws/",
+        "mount_running_version": "v2.0.3+builtin.vault",
+        "mount_type": "aws",
+        "namespace": {
+            "id": "root"
+        },
+        "operation": "read",
+        "path": "aws/creds/vault-terraform",
+        "remote_address": "100.121.237.28",
+        "remote_port": 60118
+    },
+    "request": {
+        "client_id": "0DHqvq2D77kL2/JTPSZkTMJbkFVmUu0TzMi0jiXcFy8=",
+        "client_token": "hmac-sha256:08b958d6c0cf684944bcf7c003f0d754663ba0e092aed7139e3a1bc069b73f8c",
+        "client_token_accessor": "hmac-sha256:2ae5d86ad1d4bc7f2bb7130640930688601fc961a2dc3dbe6eabee072eccd47b",
+        "headers": {
+            "user-agent": [
+                "Go-http-client/2.0"
+            ]
+        },
+        "id": "6db8761d-555e-9ddc-ff4e-30af61aa91cd",
+        "mount_accessor": "kv_72d9e236",
+        "mount_class": "secret",
+        "mount_point": "infra-secrets/",
+        "mount_running_version": "v0.26.2+builtin",
+        "mount_type": "kv",
+        "namespace": {
+            "id": "root"
+        },
+        "operation": "read",
+        "path": "infra-secrets/data/tailscale_aws_auth_key",
+        "remote_address": "100.121.237.28",
+        "remote_port": 60118
+    },
+    "request": {
+        "client_id": "0DHqvq2D77kL2/JTPSZkTMJbkFVmUu0TzMi0jiXcFy8=",
+        "client_token": "hmac-sha256:08b958d6c0cf684944bcf7c003f0d754663ba0e092aed7139e3a1bc069b73f8c",
+        "client_token_accessor": "hmac-sha256:2ae5d86ad1d4bc7f2bb7130640930688601fc961a2dc3dbe6eabee072eccd47b",
+        "headers": {
+            "user-agent": [
+                "Go-http-client/2.0"
+            ]
+        },
+        "id": "6db8761d-555e-9ddc-ff4e-30af61aa91cd",
+        "mount_class": "secret",
+        "mount_point": "infra-secrets/",
+        "mount_running_version": "v0.26.2+builtin",
+        "mount_type": "kv",
+        "namespace": {
+            "id": "root"
+        },
+        "operation": "read",
+        "path": "infra-secrets/data/tailscale_aws_auth_key",
+        "remote_address": "100.121.237.28",
+        "remote_port": 60118
+    },
+    "request": {
+        "client_id": "0DHqvq2D77kL2/JTPSZkTMJbkFVmUu0TzMi0jiXcFy8=",
+        "client_token": "hmac-sha256:08b958d6c0cf684944bcf7c003f0d754663ba0e092aed7139e3a1bc069b73f8c",
+        "client_token_accessor": "hmac-sha256:2ae5d86ad1d4bc7f2bb7130640930688601fc961a2dc3dbe6eabee072eccd47b",
+        "headers": {
+            "user-agent": [
+                "Go-http-client/2.0"
+            ]
+        },
+        "id": "fa3a4bc5-bea5-463f-05e3-cfcc61636f1e",
+        "mount_class": "secret",
+        "mount_point": "aws/",
+        "mount_running_version": "v2.0.3+builtin.vault",
+        "mount_type": "aws",
+        "namespace": {
+            "id": "root"
+        },
+        "operation": "read",
+        "path": "aws/creds/vault-terraform",
+        "remote_address": "100.121.237.28",
+        "remote_port": 60118
+    },
+    "request": {
+        "client_id": "0DHqvq2D77kL2/JTPSZkTMJbkFVmUu0TzMi0jiXcFy8=",
+        "client_token": "hmac-sha256:95a0fc677b18f6468100de1da1c3a2051850a3c458e1c15146b2b0c2b368ace6",
+        "client_token_accessor": "hmac-sha256:11c068afa23b552307be059c34ee8bc26f71ab50d59447d27f07d6c639f3ed9b",
+        "data": {
+            "description": "hmac-sha256:a6cfa09c1bebe4cf8b0dd5dd94320fb072f3ea3c5769c2faf3f24740716b8e88",
+            "local": false,
+            "options": {
+                "file_path": "hmac-sha256:beae2e022cdd9124fb36f92c2b5ec1a37c650b7394b51e951cbaa4f7c76a9e7c"
+            },
+            "type": "hmac-sha256:b22049e5fc9cf89fa33b65b3c9f8f0e794e96d318a44420272186e7106fad8e1"
+        },
+        "headers": {
+            "user-agent": [
+                "Go-http-client/2.0"
+            ]
+        },
+        "id": "b9423f61-a1f4-dd40-3633-4ae8fc24a758",
+        "mount_accessor": "system_f79c9156",
+        "mount_class": "secret",
+        "mount_point": "sys/",
+        "mount_running_version": "v2.0.3+builtin.vault",
+        "mount_type": "system",
+        "namespace": {
+            "id": "root"
+        },
+        "operation": "update",
+        "path": "sys/audit/file",
+        "remote_address": "127.0.0.1",
+        "remote_port": 48610
+    },
+    "request": {
+        "client_id": "0DHqvq2D77kL2/JTPSZkTMJbkFVmUu0TzMi0jiXcFy8=",
+        "client_token": "hmac-sha256:95a0fc677b18f6468100de1da1c3a2051850a3c458e1c15146b2b0c2b368ace6",
+        "client_token_accessor": "hmac-sha256:11c068afa23b552307be059c34ee8bc26f71ab50d59447d27f07d6c639f3ed9b",
+        "headers": {
+            "user-agent": [
+                "Go-http-client/2.0"
+            ]
+        },
+        "id": "ffed4fb2-f299-def4-3510-dcf2ba387622",
+        "mount_class": "auth",
+        "mount_point": "auth/token/",
+        "mount_running_version": "v2.0.3+builtin.vault",
+        "mount_type": "token",
+        "namespace": {
+            "id": "root"
+        },
+        "operation": "read",
+        "path": "auth/token/lookup-self",
+        "remote_address": "100.121.237.28",
+        "remote_port": 60118
+    },
+    "request": {
+        "client_id": "0DHqvq2D77kL2/JTPSZkTMJbkFVmUu0TzMi0jiXcFy8=",
+        "client_token": "hmac-sha256:95a0fc677b18f6468100de1da1c3a2051850a3c458e1c15146b2b0c2b368ace6",
+        "client_token_accessor": "hmac-sha256:11c068afa23b552307be059c34ee8bc26f71ab50d59447d27f07d6c639f3ed9b",
+        "data": {
+            "display_name": "hmac-sha256:73268034f4e71632f9f5b9d3cac100fe4afe3ffb69bdfc2920560150b89bc319",
+            "entity_alias": "hmac-sha256:a6cfa09c1bebe4cf8b0dd5dd94320fb072f3ea3c5769c2faf3f24740716b8e88",
+            "explicit_max_ttl": "hmac-sha256:7e772fd21c390146103ebc4c2845a1177a843730d0478fda6bbc525ac5e99d61",
+            "num_uses": "hmac-sha256:c361acf2ca99701888cbf3493459ef62ac960189a8023eba6d37a4d6b8dafe34",
+            "renewable": false,
+            "ttl": "hmac-sha256:7e772fd21c390146103ebc4c2845a1177a843730d0478fda6bbc525ac5e99d61",
+            "type": "hmac-sha256:a6cfa09c1bebe4cf8b0dd5dd94320fb072f3ea3c5769c2faf3f24740716b8e88"
+        },
+        "headers": {
+            "user-agent": [
+                "Go-http-client/2.0"
+            ]
+        },
+        "id": "309960cf-bd7b-9a57-8fc5-f8139d197ffe",
+        "mount_accessor": "auth_token_e771368a",
+        "mount_class": "auth",
+        "mount_point": "auth/token/",
+        "mount_running_version": "v2.0.3+builtin.vault",
+        "mount_type": "token",
+        "namespace": {
+            "id": "root"
+        },
+        "operation": "update",
+        "path": "auth/token/create",
+        "remote_address": "100.121.237.28",
+        "remote_port": 60118
+    },
+    "request": {
+        "client_id": "0DHqvq2D77kL2/JTPSZkTMJbkFVmUu0TzMi0jiXcFy8=",
+        "client_token": "hmac-sha256:95a0fc677b18f6468100de1da1c3a2051850a3c458e1c15146b2b0c2b368ace6",
+        "client_token_accessor": "hmac-sha256:11c068afa23b552307be059c34ee8bc26f71ab50d59447d27f07d6c639f3ed9b",
+        "data": {
+            "display_name": "hmac-sha256:73268034f4e71632f9f5b9d3cac100fe4afe3ffb69bdfc2920560150b89bc319",
+            "entity_alias": "hmac-sha256:a6cfa09c1bebe4cf8b0dd5dd94320fb072f3ea3c5769c2faf3f24740716b8e88",
+            "explicit_max_ttl": "hmac-sha256:7e772fd21c390146103ebc4c2845a1177a843730d0478fda6bbc525ac5e99d61",
+            "num_uses": "hmac-sha256:c361acf2ca99701888cbf3493459ef62ac960189a8023eba6d37a4d6b8dafe34",
+            "renewable": false,
+            "ttl": "hmac-sha256:7e772fd21c390146103ebc4c2845a1177a843730d0478fda6bbc525ac5e99d61",
+            "type": "hmac-sha256:a6cfa09c1bebe4cf8b0dd5dd94320fb072f3ea3c5769c2faf3f24740716b8e88"
+        },
+        "headers": {
+            "user-agent": [
+                "Go-http-client/2.0"
+            ]
+        },
+        "id": "309960cf-bd7b-9a57-8fc5-f8139d197ffe",
+        "mount_accessor": "auth_token_e771368a",
+        "mount_class": "auth",
+        "mount_point": "auth/token/",
+        "mount_running_version": "v2.0.3+builtin.vault",
+        "mount_type": "token",
+        "namespace": {
+            "id": "root"
+        },
+        "operation": "update",
+        "path": "auth/token/create",
+        "remote_address": "100.121.237.28",
+        "remote_port": 60118
+    },
+    "request": {
+        "client_id": "0DHqvq2D77kL2/JTPSZkTMJbkFVmUu0TzMi0jiXcFy8=",
+        "client_token": "hmac-sha256:95a0fc677b18f6468100de1da1c3a2051850a3c458e1c15146b2b0c2b368ace6",
+        "client_token_accessor": "hmac-sha256:11c068afa23b552307be059c34ee8bc26f71ab50d59447d27f07d6c639f3ed9b",
+        "headers": {
+            "user-agent": [
+                "Go-http-client/2.0"
+            ]
+        },
+        "id": "ffed4fb2-f299-def4-3510-dcf2ba387622",
+        "mount_accessor": "auth_token_e771368a",
+        "mount_class": "auth",
+        "mount_point": "auth/token/",
+        "mount_running_version": "v2.0.3+builtin.vault",
+        "mount_type": "token",
+        "namespace": {
+            "id": "root"
+        },
+        "operation": "read",
+        "path": "auth/token/lookup-self",
+        "remote_address": "100.121.237.28",
+        "remote_port": 60118
+    },
+    "request": {
+        "client_id": "0DHqvq2D77kL2/JTPSZkTMJbkFVmUu0TzMi0jiXcFy8=",
+        "client_token": "hmac-sha256:95a0fc677b18f6468100de1da1c3a2051850a3c458e1c15146b2b0c2b368ace6",
+        "client_token_accessor": "hmac-sha256:11c068afa23b552307be059c34ee8bc26f71ab50d59447d27f07d6c639f3ed9b",
+        "headers": {
+            "user-agent": [
+                "Go-http-client/2.0"
+            ]
+        },
+        "id": "e7655a26-d611-b34e-010c-21f8ea51296c",
+        "mount_class": "secret",
+        "mount_point": "sys/",
+        "mount_running_version": "v2.0.3+builtin.vault",
+        "mount_type": "system",
+        "namespace": {
+            "id": "root"
+        },
+        "operation": "read",
+        "path": "sys/audit",
+        "remote_address": "127.0.0.1",
+        "remote_port": 48614
+    },
+    "request": {
+        "client_id": "0DHqvq2D77kL2/JTPSZkTMJbkFVmUu0TzMi0jiXcFy8=",
+        "client_token": "hmac-sha256:95a0fc677b18f6468100de1da1c3a2051850a3c458e1c15146b2b0c2b368ace6",
+        "client_token_accessor": "hmac-sha256:11c068afa23b552307be059c34ee8bc26f71ab50d59447d27f07d6c639f3ed9b",
+        "headers": {
+            "user-agent": [
+                "Go-http-client/2.0"
+            ]
+        },
+        "id": "e7655a26-d611-b34e-010c-21f8ea51296c",
+        "mount_accessor": "system_f79c9156",
+        "mount_class": "secret",
+        "mount_point": "sys/",
+        "mount_running_version": "v2.0.3+builtin.vault",
+        "mount_type": "system",
+        "namespace": {
+            "id": "root"
+        },
+        "operation": "read",
+        "path": "sys/audit",
+        "remote_address": "127.0.0.1",
+        "remote_port": 48614
+    },
+    "request": {
+        "id": "d5b8bee3-6183-f985-dbd5-ce1a1b2447a1",
+        "namespace": {
+            "id": "root"
+        },
+        "operation": "update",
+        "path": "sys/audit/test"
+    },
+    "response": {
+        "data": {
+            "data": {
+                "key": "hmac-sha256:8d270385ec816d58460e2f62f62c48be0416dd5b6f1db50a3891813a007c7fce"
+            },
+            "metadata": {
+                "created_time": "hmac-sha256:a91fb6b31bb3ff96a8ba220ae2f2b76b5c2289708959eea9c5bdd11b28838662",
+                "custom_metadata": null,
+                "deletion_time": "hmac-sha256:a6cfa09c1bebe4cf8b0dd5dd94320fb072f3ea3c5769c2faf3f24740716b8e88",
+                "destroyed": false,
+                "version": 3
+            }
+        },
+        "mount_accessor": "kv_72d9e236",
+        "mount_class": "secret",
+        "mount_point": "infra-secrets/",
+        "mount_running_plugin_version": "v0.26.2+builtin",
+        "mount_type": "kv"
+    },
+    "response": {
+        "data": {
+            "access_key": "hmac-sha256:0bee87d3d4b2896b660f469af583e160e5e9525498899eb6dd52d628653699b4",
+            "arn": "hmac-sha256:e8bba7c7a0e11a5fce1a8d24a76fa1fc16b9dbf373e15b97512a4743b7fa1162",
+            "secret_key": "hmac-sha256:878f920d9bd825fe272beba4d52a45228198dab88bf6dcc47b8a48c1d26fd7c3",
+            "security_token": "hmac-sha256:b7d9a1ec4785202ea2e1093fc8ed82f510ff4737e09bab2cc8dda9c821a9c74c",
+            "session_token": "hmac-sha256:b7d9a1ec4785202ea2e1093fc8ed82f510ff4737e09bab2cc8dda9c821a9c74c",
+            "ttl": 899
+        },
+        "mount_accessor": "aws_3f8fdb2a",
+        "mount_class": "secret",
+        "mount_point": "aws/",
+        "mount_running_plugin_version": "v2.0.3+builtin.vault",
+        "mount_type": "aws",
+        "secret": {
+            "lease_id": "aws/creds/vault-terraform/0lylbVfAEAalvy42Pb0hBkVr"
+        }
+    },
+    "response": {
+        "auth": {
+            "accessor": "hmac-sha256:2ae5d86ad1d4bc7f2bb7130640930688601fc961a2dc3dbe6eabee072eccd47b",
+            "client_token": "hmac-sha256:08b958d6c0cf684944bcf7c003f0d754663ba0e092aed7139e3a1bc069b73f8c",
+            "display_name": "token-terraform",
+            "policies": [
+                "root"
+            ],
+            "token_policies": [
+                "root"
+            ],
+            "token_ttl": 1200,
+            "token_type": "service"
+        },
+        "mount_accessor": "auth_token_e771368a",
+        "mount_class": "auth",
+        "mount_point": "auth/token/",
+        "mount_running_plugin_version": "v2.0.3+builtin.vault",
+        "mount_type": "token"
+    },
+    "response": {
+        "data": {
+            "accessor": "hmac-sha256:11c068afa23b552307be059c34ee8bc26f71ab50d59447d27f07d6c639f3ed9b",
+            "creation_time": 1784174535,
+            "creation_ttl": 0,
+            "display_name": "hmac-sha256:66b906851fec54e214b60a90850c0617bd49ce28dbd45a047d83568d7c588bd6",
+            "entity_id": "hmac-sha256:a6cfa09c1bebe4cf8b0dd5dd94320fb072f3ea3c5769c2faf3f24740716b8e88",
+            "expire_time": null,
+            "explicit_max_ttl": 0,
+            "id": "hmac-sha256:95a0fc677b18f6468100de1da1c3a2051850a3c458e1c15146b2b0c2b368ace6",
+            "meta": null,
+            "num_uses": 0,
+            "orphan": true,
+            "path": "hmac-sha256:a5a117507cbb7aa3d73486b0dd9bea72422ca37e65920be1b2f1793bc1b83002",
+            "policies": [
+                "hmac-sha256:66b906851fec54e214b60a90850c0617bd49ce28dbd45a047d83568d7c588bd6"
+            ],
+            "ttl": 0,
+            "type": "hmac-sha256:de82ba1a35286e2781ce39977412f5f1a7061d399a5c4b6ba70ad8e35624631d"
+        },
+        "mount_accessor": "auth_token_e771368a",
+        "mount_class": "auth",
+        "mount_point": "auth/token/",
+        "mount_running_plugin_version": "v2.0.3+builtin.vault",
+        "mount_type": "token"
+    },
+    "response": {
+        "data": {
+            "file/": {
+                "description": "hmac-sha256:a6cfa09c1bebe4cf8b0dd5dd94320fb072f3ea3c5769c2faf3f24740716b8e88",
+                "local": false,
+                "options": {
+                    "file_path": "hmac-sha256:beae2e022cdd9124fb36f92c2b5ec1a37c650b7394b51e951cbaa4f7c76a9e7c"
+                },
+                "path": "hmac-sha256:0c4c64853ac8e33576f2dfaa71f9806b63dcd237b2a633a62f065b57a20de4f3",
+                "type": "hmac-sha256:b22049e5fc9cf89fa33b65b3c9f8f0e794e96d318a44420272186e7106fad8e1"
+            }
+        },
+        "mount_accessor": "system_f79c9156",
+        "mount_class": "secret",
+        "mount_point": "sys/",
+        "mount_running_plugin_version": "v2.0.3+builtin.vault",
+        "mount_type": "system"
+    },
+    "time": "2026-07-16T07:58:44.380831218Z",
+    "time": "2026-07-16T07:58:51.267097139Z",
+    "time": "2026-07-16T07:58:51.26729972Z",
+    "time": "2026-07-16T08:00:11.337158759Z",
+    "time": "2026-07-16T08:00:11.337454219Z",
+    "time": "2026-07-16T08:00:11.354504925Z",
+    "time": "2026-07-16T08:00:11.355673276Z",
+    "time": "2026-07-16T08:00:11.355681956Z",
+    "time": "2026-07-16T08:00:11.355839636Z",
+    "time": "2026-07-16T08:00:11.49754499Z",
+    "time": "2026-07-16T08:00:11.338982502Z",
+    "time": "2026-07-16T07:58:44.373556998Z",
+    "type": "request",
+    "type": "response",
+    "type": "response",
+    "type": "request",
+    "type": "response",
+    "type": "response",
+    "type": "request",
+    "type": "request",
+    "type": "request",
+    "type": "response",
+    "type": "response",
+    "type": "request""remote_port": 60118
+},
+"response": {
+    "data": {
+        "access_key": "hmac-sha256:0bee87d3d4b2896b660f469af583e160e5e9525498899eb6dd52d628653699b4",
+        "arn": "hmac-sha256:e8bba7c7a0e11a5fce1a8d24a76fa1fc16b9dbf373e15b97512a4743b7fa1162",
+        "secret_key": "hmac-sha256:878f920d9bd825fe272beba4d52a45228198dab88bf6dcc47b8a48c1d26fd7c3",
+        "security_token": "hmac-sha256:b7d9a1ec4785202ea2e1093fc8ed82f510ff4737e09bab2cc8dda9c821a9c74c",
+        "session_token": "hmac-sha256:b7d9a1ec4785202ea2e1093fc8ed82f510ff4737e09bab2cc8dda9c821a9c74c",
+        "ttl": 899
+    },
+    "mount_accessor": "aws_3f8fdb2a",
+    "mount_class": "secret",
+    "mount_point": "aws/",
+    "mount_running_plugin_version": "v2.0.3+builtin.vault",
+    "mount_type": "aws",
+    "secret": {
+        "lease_id": "aws/creds/vault-terraform/0lylbVfAEAalvy42Pb0hBkVr"
+    }
+},
+"time": "2026-07-16T08:00:11.49754499Z",
+"type": "response"
+}
