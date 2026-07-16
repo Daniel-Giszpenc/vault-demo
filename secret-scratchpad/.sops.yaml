@@ -1,0 +1,10 @@
+# pub keys
+keys:
+- &primary age1ttejqd3tk5gl0fqyz2c0jwe0q7q3m60nlv2c3hcaxtur5tak7e8quwea58
+
+creation_rules:
+    #path should be relative to location of this file (.sops.yaml)
+    - path_regex: secrets.yaml$
+      key_groups:
+      - age:
+        - *primary
