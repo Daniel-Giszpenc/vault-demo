@@ -9,7 +9,7 @@
 
 # secret-scratchpad/
 
-
+**/.terraform
 **/terraform.tfstate
 **/terraform.tfstate.backup
 
