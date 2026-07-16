@@ -1,0 +1,43 @@
+#cloud-config
+
+ssh_pwauth: false
+
+users:
+- name: ansible
+  gecos: Ansible User
+  groups: users,admin
+  sudo: ALL=(ALL) NOPASSWD:ALL
+  shell: /bin/bash
+  lock_passwd: true
+
+
+# SECURITY WARNING: RUNCMD BLOCK
+
+# RISK
+# Current runcmd block uses `curl | sh` from the public internet.
+
+# FUTURE MITIGATION: Once Production Stable 
+
+# 1.
+# In the future when I am locking this setup down I can manually
+# download these shell scripts, verify them and set up checksum shas.
+# Then copy them to an S3 bucket to pulled from there.
+
+# 2.
+# Packer pre-baking AMIs for install work will be done leaving
+# only "initialize related settings" work for cloud-init.
+
+runcmd:
+  # Install - Tailscale
+  - curl -fsSL https://tailscale.com/install.sh | sh
+  # Initialize Related Settings - Tailscale
+  - tailscale up --authkey="${tailscale_auth_key}" --ssh --accept-routes --hostname="${tailscale_server_name}"
+  # removed the following from above cmd as part of debugging: --statedir=mem:\
+  - tailscale set --ssh
+  # Install - Docker
+  - curl -fsSL https://get.docker.com | sh
+  # Initialize Related Settings - Docker
+  # - usermod -aG docker ansible
+
+package_update: true
+package_upgrade: true
