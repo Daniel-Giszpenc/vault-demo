@@ -8,6 +8,7 @@
 **/.vitepress/dist
 
 # secret-scratchpad/
+**/keys
 
 **/.terraform
 **/terraform.tfstate
