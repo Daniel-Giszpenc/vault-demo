@@ -21,6 +21,9 @@
 		in rec {
 			devShell = pkgs.mkShell {
 				packages = with pkgs; [
+                    gh
+                    git-filter-repo
+
                     # note: must the cmd 'code .' from this shell
 					vscode-fhs # needed for C# Extensions & Debugging
 					dotnetCorePackages.dotnet_9.sdk # includes the runtime
