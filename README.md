@@ -10,13 +10,16 @@
 - Cloud Requirements for Vault: Create IAM material for managing id in the future with Vault.
 - Terraform Vault Provider: Configure resources in Vault with terraform.
 - Vault Cli: Manage static secrets.
-- App Secrets: Show incomplete cli app approach to secrets to setup a devex discussion.
 
 ### pt3-use
 - Ephemeral Terraform Resources: Passing vars to terraform modules from Vault. (no state trace)
 - Vault Cli: Manage leases, enable an audit device.
 - Dynamic Cloud Credentials: Dynamic terraform vault+aws providers to assume an AWS role.
 - Audit: Browse Vault audit output.
+
+### extra-time
+- App Secrets: Show incomplete cli app approach to secrets to setup a devex discussion.
+- CI Secrets: Show incomplete github action for CI secres discussion.
 
 ## Commands
 ---
@@ -87,10 +90,18 @@ On vault shell
 # use still open tab if available
 # docker exec -it vault-server /bin/sh
 
+vault token create -ttl=1h -use-limit=5 -policy="developer-access"
+export VAULT_TOKEN=<your-token>
+
 vault token lookup
 
 vault kv put dev-secrets/app/good_message \
     msg="top of the morning!"
+
+# vault login <root-passwd>
+
+vault token create -ttl=1h -use-limit=5 -policy="infra-access"
+export VAULT_TOKEN=<your-token>
 
 # paste from clipboard to redacted
 vault kv put infra-secrets/tailscale_aws_auth_key \
@@ -98,12 +109,6 @@ vault kv put infra-secrets/tailscale_aws_auth_key \
 
 vault kv put infra-secrets/tailscale_aws_auth_key key="<redacted-v2>"
 ```
-
-On local client in code editor
-
-Browse cli-app for discussion for a minute on
-- internals secrets via env vars
-- internals secrets via sdk
 
 ### pt3-use
 
@@ -140,3 +145,14 @@ cat vault/logs/audit.log
 # copy to clipboard and paste in editor log.json
 # sort json in editor
 ```
+
+### Extra Time
+
+On local client in code editor
+
+Browse cli-app for discussion for a minute on
+- internals secrets via env vars
+- internals secrets via sdk
+
+Browse ci workflow in .github/workflows on
+- oidc and jwt roles

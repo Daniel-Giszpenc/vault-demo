@@ -8,6 +8,15 @@ resource "vault_mount" "kv_v2" {
     }
 }
 
+resource "vault_policy" "infra_policy" {
+    name   = "infra-access"
+    policy = <<EOT
+    path "infra-secrets/*" {
+        capabilities = ["create", "read", "update", "delete", "list"]
+    }
+    EOT
+}
+
 resource "vault_mount" "kv_v2_infra_secrets" {
     path        = "infra-secrets"
     type        = "kv-v2"
